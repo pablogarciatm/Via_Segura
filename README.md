@@ -20,7 +20,7 @@ La estructura del repositorio es la siguiente:
   - **subsidiary**:
       Contiene notebooks secundarios en los que se realizan análisis específicos adicionales
 - **Informe**:
-  - `Vía Segura. Análisis de datos para la seguridad vial en Barcelona.docx.pdf`
+  - `Vía Segura. Análisis de datos para la seguridad vial en Barcelona.pdf`
     
 ## Propósito
 
