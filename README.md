@@ -8,20 +8,20 @@ Este proyecto tiene como objetivo analizar los accidentes de tráfico en la ciud
 
 La estructura del repositorio es la siguiente:
 
-- **Notebooks Principales**: En la raíz del repositorio se encuentran tres notebooks principales:
-  - `Análisis de variables.ipynb`: Contiene el análisis exploratorio de los datos de accidentes, incluyendo visualizaciones y estadísticas descriptivas.
-  - `Análisis Clustering.ipynb`: Realiza un análisis de segmentación (clustering) para identificar grupos de accidentes con características similares.
-  - `Análisis Clasificación.ipynb`: Desarrolla modelos de clasificación supervisada para predecir la gravedad de los accidentes.
-
 - **Carpetas**:
-  - **data**: Contiene los datos en dos subcarpetas:
-    - `clean`: Archivos CSV preprocesados listos para el análisis.
-    - `raw`: Archivos CSV sin procesar descargados de [datos.gob.es](https://datos.gob.es).
-  - **preprocess**: Contiene el notebook de limpieza de datos:
-    - `limpieza_datos.ipynb`: Proceso de limpieza y preprocesamiento de los datos antes de su análisis.
-  - **subsidiary**: Contiene notebooks secundarios en los que se realizan análisis específicos adicionales:
-    - Varios notebooks con análisis específicos que complementan el análisis general.
-
+  - **Main**:
+    - `Análisis de variables.ipynb`: Contiene el análisis exploratorio de los datos de accidentes, incluyendo visualizaciones y estadísticas descriptivas.
+    - `Clustering.ipynb`: Realiza un análisis de segmentación (clustering) para identificar grupos de accidentes con características similares.
+    - `Machine Learning.ipynb`: Desarrolla modelos de clasificación supervisada para predecir la gravedad de los accidentes.
+  - **data**:
+    - `clean.zip`: Archivos CSV preprocesados listos para el análisis.
+    - `origen.zip`: Archivos CSV sin procesar descargados de [datos.gob.es](https://datos.gob.es).
+    - `Limpieza de datos.ipynb`: Proceso de limpieza y preprocesamiento de los datos antes de su análisis.
+  - **subsidiary**:
+      Contiene notebooks secundarios en los que se realizan análisis específicos adicionales
+- **Informe**:
+  - `Vía Segura. Análisis de datos para la seguridad vial en Barcelona.docx.pdf`
+    
 ## Propósito
 
 El propósito de este proyecto es doble:
