@@ -18,7 +18,7 @@ La estructura del repositorio es la siguiente:
     - `origen.zip`: Archivos CSV sin procesar descargados de [datos.gob.es](https://datos.gob.es).
     - `Limpieza de datos.ipynb`: Proceso de limpieza y preprocesamiento de los datos antes de su análisis.
   - **subsidiary**:
-      Contiene notebooks secundarios en los que se realizan análisis específicos adicionales
+      Contiene notebooks secundarios en los que se realizan análisis específicos adicionales.
 - **Informe**:
   - `Vía Segura. Análisis de datos para la seguridad vial en Barcelona.pdf`
     
@@ -34,7 +34,7 @@ El propósito de este proyecto es doble:
 Este proyecto hace uso de diversas librerías de Python para el análisis y modelado de datos:
 
 - **Pandas** y **NumPy**: Para la manipulación y análisis de datos.
-- **Matplotlib** y **Seaborn**: Para la visualización de datos.
+- **Matplotlib**, **Seaborn** y **Folium**: Para la visualización de datos.
 - **Scikit-learn**: Para la implementación de algoritmos de machine learning.
 - **TensorFlow**: Para la construcción de redes neuronales.
 - **XGBoost** y **LightGBM**: Para modelos de boosting.
